@@ -1,5 +1,6 @@
 import './style.scss'
 
+
 document.querySelector('#app').innerHTML = `
   <h1>Hello!</h1>
   <a href="QA/qa.html">QA Page</a>
