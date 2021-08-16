@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="../style.scss" rel="stylesheet">
+    <script src="./badExample.js"></script>
+    <title>Bad Example</title>
 </head>
 <body>
-    <h1>Bad Example Page :(</h1>
+    <h1>Bad Example Page</h1>
+    <h2>Violations of Best Security Practices</h2>
+    <ul>
+        <li>Using a GET instead of a POST method on a form. When using a GET method all of the users data will be displayed in the url</li>
+        <li>Sensitive Data Exposure: Keeping sensitive data unencrypted</li>
+        <li>Exposing users sensitive data</li>
+        <li>Not having mandatory HTTPS</li>
+    </ul>
+    <h2>How to Prevent Security Risks</h2>
+    <ul>
+        <li>Encrypting users sensitive data(Passwords, credit card info)</li>
+        <li>Mandatory HTTPS for everything</li>
+    </ul>
+    <form action="#" method="GET" name="form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+        </div>
+        <button id="submit">Submit</button>
+    </form>
+    <a href="../index.html">Back to homepage</a>
 </body>
 </html>
