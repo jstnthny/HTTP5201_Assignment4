@@ -1,25 +1,64 @@
-$background-color: grey; 
+$background-color: #F2BC94; 
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: #000;
   margin-top: 60px;
 
 }
 
 #app a{
-  color: aliceblue;
+  color: #000;
   text-decoration: none;
 }
 
 #app a:hover{
-  color: aquamarine;
+  color: #722620;
 }
 
 
 body{
   background-color: $background-color;
+}
+
+body h1, h2, h3{
+  color: #30110D;
+  font-weight: bold;
+  font-size: 2em;
+ 
+}
+
+body p{
+  font-size: 1.1em;
+}
+
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.container a{
+  color: #722620;
+  text-decoration: none;
+}
+
+.container a:hover{
+    color: #722620;
+}
+
+.badexample-heading{
+  text-align: center;
+}
+
+form{
+  border: white 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
 }
